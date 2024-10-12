@@ -6,7 +6,7 @@ local M = {}
 
 ---@class Palette
 M.default = {
-  none = hsl(0, 0, 8),
+  none = "NONE",
 
   base04 = hsl(192, 100, 5),
   base03 = hsl(192, 100, 11),
