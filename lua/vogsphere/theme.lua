@@ -195,9 +195,9 @@ function M.setup()
 
     LspSignatureActiveParameter = { bg = c.bg, bold = true },
     LspCodeLens = { fg = c.base01 },
-    LspInlayHint = { bg = c.none, fg = c.blue500 },
+    LspInlayHint = { bg = c.bg, fg = c.blue500 },
 
-    LspInfoBorder = { fg = c.bg, bg = c.none },
+    LspInfoBorder = { fg = c.bg, bg = options.transparent and c.none or c.bg},
 
     DapStoppedLine = { bg = c.yellow700 }, -- Used for "Warning" diagnostic virtual text
 
