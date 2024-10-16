@@ -10,15 +10,15 @@ vogsphere.normal = {
 }
 
 vogsphere.insert = {
-  a = { bg = colors.green, fg = colors.black },
+  a = { bg = colors.green300, fg = colors.black },
 }
 
 vogsphere.command = {
-  a = { bg = colors.yellow, fg = colors.black },
+  a = { bg = colors.yellow500, fg = colors.black },
 }
 
 vogsphere.visual = {
-  a = { bg = colors.magenta, fg = colors.black },
+  a = { bg = colors.grey, fg = colors.black },
 }
 
 vogsphere.replace = {
@@ -26,7 +26,7 @@ vogsphere.replace = {
 }
 
 vogsphere.terminal = {
-  a = { bg = colors.green, fg = colors.black },
+  a = { bg = colors.black, fg = colors.grey100 },
 }
 
 vogsphere.inactive = {
